@@ -9,7 +9,7 @@ services:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=Admin@123  
       - SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com
-      - SPLUNK_HEC_TOKEN=83be9ab2-06bf-4b54-abef-95fa2d2eccd0
+      #- SPLUNK_HEC_TOKEN=add_this_after_creating
       # Note: SPLUNK_HEC_TOKEN does NOT auto-create HEC token in Splunk
     ports:
       - "8000:8000"   # UI
